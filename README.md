@@ -25,14 +25,16 @@ cd GeneradorCredenciales
 En este proyecto, el patrón Prototype se aplica para clonar credenciales basadas en una plantilla existente.
 
 Clonado de Credenciales
-La clase Credencial implementa la interfaz Cloneable, lo que permite que las credenciales puedan ser clonadas de forma sencilla. El proceso de clonación se realiza con el siguiente código:
+La clase Credencial implementa la interfaz Cloneable, lo que permite que las credenciales puedan ser clonadas de forma sencilla.
 
-java
-Copiar
-Editar
 Credencial plantilla = new Credencial("Nombre Base", "Cargo Base", "12345678-9");
 Credencial clon = plantilla.clone();  // Se realiza el clon
 
 clon.setNombre("Tulio");
 clon.setCargo("Director");
 clon.setRut("98765432-1");
+```
+
+---
+
+🔒 Patrón Singleton – Aplicación
