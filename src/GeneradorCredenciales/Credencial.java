@@ -31,7 +31,6 @@ public class Credencial implements Cloneable {
         System.out.println("Nombre: " + nombre + " | Cargo: " + cargo + " | RUT: " + rut);
     }
 
-    // Getters y Setters
     public void setNombre(String nombre) { this.nombre = nombre; }
     public void setCargo(String cargo) { this.cargo = cargo; }
     public void setRut(String rut) { this.rut = rut; }

@@ -24,7 +24,7 @@ public class Menu {
             System.out.println("3. Salir");
             System.out.print("Opción: ");
             opcion = sc.nextInt();
-            sc.nextLine(); // Limpiar buffer
+            sc.nextLine(); 
 
             switch (opcion) {
                 case 1:
