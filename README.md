@@ -3,12 +3,12 @@
 
 ---
 
-## 🎯 Objetivo del Proyecto
+🎯 Objetivo del Proyecto
+El objetivo del proyecto es crear un sistema que permita generar credenciales personalizadas para un evento, utilizando patrones de diseño. En este caso, se aplican los patrones Prototype y Singleton.
 
-Este sistema permite emitir credenciales personalizadas para un evento a partir de una plantilla base clonable.  
-Se aplican los patrones de diseño:
-- 🧬 **Prototype** para clonar credenciales sin repetir su construcción.
-- 🔒 **Singleton** para configurar globalmente los datos del evento (nombre, lugar, fecha).
+Prototype: Este patrón permite clonar credenciales a partir de una plantilla base, para generar nuevas credenciales sin necesidad de crear una nueva desde cero.
+
+Singleton: Se utiliza para gestionar de forma global la configuración del evento y las credenciales generadas. Asegura que solo exista una instancia del gestor de credenciales a lo largo de la ejecución del programa.
 
 ---
 
