@@ -18,6 +18,7 @@ Singleton: Se utiliza para gestionar de forma global la configuración del event
 ```bash
 git clone https://github.com/RussellMJ10/GeneradorCredenciales.git
 cd GeneradorCredenciales
+```
 
 ---
 
@@ -33,7 +34,6 @@ Credencial clon = plantilla.clone();  // Se realiza el clon
 clon.setNombre("Tulio");
 clon.setCargo("Director");
 clon.setRut("98765432-1");
-```
 
 ---
 
