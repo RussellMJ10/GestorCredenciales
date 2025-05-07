@@ -29,11 +29,11 @@ Clonado de Credenciales
 La clase Credencial implementa la interfaz Cloneable, lo que permite que las credenciales puedan ser clonadas de forma sencilla.
 ```bash
 Credencial plantilla = new Credencial("Nombre Base", "Cargo Base", "12345678-9");
-Credencial clon = plantilla.clone();  // Se realiza el clon
+Credencial clon = plantilla.clone();  
 
-clon.setNombre("Tulio");
+clon.setNombre("Jose");
 clon.setCargo("Director");
-clon.setRut("98765432-1");
+clon.setRut("18545932-K");
 ```
 ---
 
@@ -44,7 +44,6 @@ public class GestorCredenciales {
     private static GestorCredenciales instancia;
 
     private GestorCredenciales() {
-        // Constructor privado para evitar instanciación directa
     }
 
     public static GestorCredenciales getInstancia() {
@@ -55,7 +54,6 @@ public class GestorCredenciales {
     }
 
     public void agregar(Credencial credencial) {
-        // Agregar credencial al gestor
     }
 }
 ```
