@@ -79,3 +79,5 @@ El sistema incluye un menú interactivo por consola, donde los usuarios pueden e
 ---
 
 📸 Captura del Sistema Funcionando
+![GestorCredenciales](https://github.com/user-attachments/assets/25126642-2445-4e80-bfef-16237ff9ef60)
+
