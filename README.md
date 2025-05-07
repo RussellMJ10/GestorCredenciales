@@ -76,6 +76,8 @@ El sistema incluye un menú interactivo por consola, donde los usuarios pueden e
 
 📊 Diagrama de Clases (UML)
 
+![GestorCredenciales](https://github.com/user-attachments/assets/3125c7bb-0db3-43f7-bdf0-5eb4f067e2c5)
+
 ---
 
 📸 Captura del Sistema Funcionando
