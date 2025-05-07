@@ -27,14 +27,49 @@ En este proyecto, el patrón Prototype se aplica para clonar credenciales basada
 
 Clonado de Credenciales
 La clase Credencial implementa la interfaz Cloneable, lo que permite que las credenciales puedan ser clonadas de forma sencilla.
-
+```bash
 Credencial plantilla = new Credencial("Nombre Base", "Cargo Base", "12345678-9");
 Credencial clon = plantilla.clone();  // Se realiza el clon
 
 clon.setNombre("Tulio");
 clon.setCargo("Director");
 clon.setRut("98765432-1");
-
+```
 ---
 
 🔒 Patrón Singleton – Aplicación
+La clase GestorCredenciales tiene un atributo estático que mantiene la única instancia del gestor. Se accede a ella mediante el método estático getInstancia().
+```bash
+public class GestorCredenciales {
+    private static GestorCredenciales instancia;
+
+    private GestorCredenciales() {
+        // Constructor privado para evitar instanciación directa
+    }
+
+    public static GestorCredenciales getInstancia() {
+        if (instancia == null) {
+            instancia = new GestorCredenciales();
+        }
+        return instancia;
+    }
+
+    public void agregar(Credencial credencial) {
+        // Agregar credencial al gestor
+    }
+}
+```
+Acceder a la instancia del Singleton:
+```bash
+GestorCredenciales.getInstancia().agregar(nuevaCredencial);
+```
+
+---
+🖥️ Menú por Consola
+El sistema incluye un menú interactivo por consola, donde los usuarios pueden elegir entre agregar nuevas credenciales, ver las credenciales generadas o salir del programa.
+```bash
+--- MENÚ ---
+1. Agregar nueva credencial
+2. Ver credenciales generadas
+3. Salir
+```
