@@ -65,6 +65,7 @@ GestorCredenciales.getInstancia().agregar(nuevaCredencial);
 ```
 
 ---
+
 🖥️ Menú por Consola
 El sistema incluye un menú interactivo por consola, donde los usuarios pueden elegir entre agregar nuevas credenciales, ver las credenciales generadas o salir del programa.
 ```bash
@@ -73,3 +74,10 @@ El sistema incluye un menú interactivo por consola, donde los usuarios pueden e
 2. Ver credenciales generadas
 3. Salir
 ```
+---
+
+📊 Diagrama de Clases (UML)
+
+---
+
+📸 Captura del Sistema Funcionando
